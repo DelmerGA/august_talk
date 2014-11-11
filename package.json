@@ -1,0 +1,28 @@
+{
+  "name": "august_talk",
+  "version": "0.0.0",
+  "description": "a js talk",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --recursive -R landing test",
+    "start": "nodemon app.js",
+    "foobar": "node app.js"
+  },
+  "keywords": [
+    "talk"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "ejs": "^1.0.0",
+    "express": "^4.10.2",
+    "method-override": "^2.3.0",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1",
+    "nodemon": "^1.2.1"
+  }
+}

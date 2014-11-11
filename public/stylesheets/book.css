@@ -1,0 +1,12 @@
+.books {
+  padding-bottom: 25px;
+}
+.book {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 0 0 0 5px #eee, 
+  0 0 0 10px #ddd, 0 0 0 20px #ccc, 
+  0 0 0 35px gray;
+  padding: 10px;
+}

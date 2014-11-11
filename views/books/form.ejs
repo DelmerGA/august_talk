@@ -1,0 +1,12 @@
+
+  <form action="/books/<%= id %>?<%= method || '' %> " method="post">
+    <div>
+      <input type="text" placeholder="Title" name="book[title]" value="<%= book.title || ''%>">
+    </div>
+    <div>
+      <input type="text" placeholder="Author" name="book[author]" value="<%= book.author || ''  %>">
+    </div>
+    <div>
+      <button>Save</button>
+    </div>
+  </form>
